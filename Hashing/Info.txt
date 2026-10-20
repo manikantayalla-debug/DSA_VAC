@@ -1,0 +1,9 @@
+Hashing : Pre storing values/ fetching
+
+can use hash array for len {10^6} or less
+
+Char Hashing:
+            ASCII : American Starting Code for Information Interchange
+            'a' = 97
+            'z' = 122
+            "A" = 65
