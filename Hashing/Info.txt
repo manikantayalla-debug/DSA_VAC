@@ -7,3 +7,18 @@ Char Hashing:
             'a' = 97
             'z' = 122
             "A" = 65
+
+Time Complexity: Storing/Fetching = (1) in python
+
+Hashing (How it works internally):
+    * Division Method
+    * Folding Method
+    * Mid Square Method
+
+    Division Method:
+            e.g. {2,5,16,25,139}
+                  for this e.g. cant create array len > 10
+                   %10 every value in array and store it in hash_array[%10 val]
+                   Collisions:
+                               Chaining multiple elements at same hash index in hash_array
+                               to store elements in limited memory storage.
